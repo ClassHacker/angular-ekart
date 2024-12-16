@@ -10,11 +10,11 @@ export class HighlightDirective {
 
   @HostListener('mouseenter') 
   onMouseEnter() {
-        this.el.nativeElement.style.backgroundColor = "blue";
+    this.el.nativeElement.style.backgroundColor = "lightblue";
   }
 
   @HostListener('mouseleave') 
   onMouseLeave() {
-     this.el.nativeElement.style.backgroundColor = "white";
+    this.el.nativeElement.style.backgroundColor = "white";
   }
 }
